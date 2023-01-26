@@ -1,0 +1,379 @@
+body {
+    color: #fff;
+    line-height: 1.2;
+    font-size: 10px;
+}
+
+.fundoPreto {
+    background-color: #141414;
+    width: 100%;
+    height: 900px;
+}
+
+.header1 {
+    height: 70px;
+}
+
+.header-nav {
+    height: 68px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .7) 10%, transparent);
+    display: flex;
+    padding: 0 4%;
+    align-items: center;
+}
+
+.profile-container {
+    position: static;
+    text-align: center;
+    height: 818px;
+}
+
+.div-central {
+    height: 818px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.div-central2 {
+    position: relative;
+    text-align: left;
+    width: 630px;
+    height: 822px;
+}
+
+.div-central2 h1 {
+    font-size: 4vw;
+    margin: 0;
+}
+
+.entrada-perfis {
+    display: flex;
+    padding: 2em 0;
+    height: 624px;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+}
+
+.profile-avatar {
+    width: 8vw;
+    margin-right: 1.5vw;
+    max-width: 180px;
+    min-width: 80px;
+    white-space: nowrap;
+}
+
+.box-avatar {
+    position: relative;
+}
+
+img {
+    border: 0;
+}
+
+.avatar {
+    border-radius: 4px;
+    height: 7.8vw;
+    width: 8vw;
+}
+
+img {
+    height: 20px;
+    background-color: #fff;
+    border-radius: 100px;
+}
+
+.trocar-avatar {
+    background-color: transparent;
+    border: none;
+    height: 5px;
+    width: 5px;
+    bottom: 20%;
+    left: 7%;
+    cursor: pointer;
+    position: absolute;
+}
+
+.profile-edit {
+    max-width: 500px;
+}
+
+.profile-edit-input {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    height: 35.5px;
+    background-color: #666666;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.editar-nome {
+    background-color: #666;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 1.3vw;
+    height: 2em;
+    padding: .2em .6em;
+    width: 500px;
+}
+
+.profile-language {
+    display: flex;
+    height: 79px;
+}
+
+.profileDropdow {
+    margin-top: 10px;
+    width: 500px;
+}
+
+.idioma-perfil {
+    color: #ccc;
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+.dropDown {
+    height: 26px;
+    min-width: 18rem;
+}
+
+.opcoes-idioma11 {
+    padding-left: 5px;
+    background-color: #141414;
+    font-size: 1vw;
+    height: 25px;
+    width: 125px;
+    border: 1px solid #fff;
+}
+
+.label {
+    appearance: none;
+    background-color: #000;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    display: inline-block;
+    color: #fff;
+    font-size: 1.25rem;
+    height: 24px;
+    width: 124px;
+    line-height: 2.3rem;
+    padding-left: 10px;
+    padding-right: 50px;
+    position: relative;
+}
+
+.gameID {
+    margin-top: 24px;
+}
+
+label {
+    display: inline;
+}
+
+.game-ID {
+    font-size: 1.3vw;
+    margin: 0px 0px 7px;
+    color: #ccc;
+    font-weight: 400;
+}
+
+.IDdescricao {
+    font-size: 1vw;
+}
+
+.saibaMais {
+    background: none;
+    border: none;
+    padding: 1px 0px 1px 2px;
+}
+
+.criar-gameID {
+    width: 100%;
+    height: 35.5px;
+    background-color: #666;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1.3vw;
+    padding: .2em .6em;
+}
+
+.faixa-etaria {
+    margin: 1.5vw 0 0;
+    padding: 1.5vw 0 0;
+    width: 500px;
+    height: 168.5px;
+    border-top: 1px solid #666;
+}
+
+.classificacao {
+    color: #ccc;
+    margin: 0 0 7px;
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+ul {
+    padding: 0;
+}
+
+.profile-etaria {
+    font-size: 1vw;
+    background: #333;
+    padding: 7px 10px;
+    margin-right: 5px;
+    font-weight: 500;
+    border-radius: 2px;
+    unicode-bidi: normal;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.titulo-etaria {
+    font-size: 1vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+.profile-button12 {
+    font-size: 1vw;
+    margin: 1em 0;
+    display: inline-block;
+    background-color: transparent;
+    color: grey;
+    border: 1px solid grey;
+    padding: .5em 1.5em;
+}
+
+.profile-button12:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.autoplay1 {
+    border-top: 1px solid #333;
+    margin: 1.5vw 0 0;
+    padding: 1.5vw 0 0;
+}
+
+.header-autoplay {
+    color: #ccc;
+    margin: 0 0 7px;
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+.texto1{
+    position: relative;
+    top: 5px;
+}
+
+.option-autoplay {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    font-size: .9vw;
+    height: 30px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: .9VW;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    border: 1px solid #333333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #141414;
+    border-radius: 2px;
+}
+
+.container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.container input:checked~.checkmark {
+    background-color: #141414;
+}
+
+.container input:checked~.checkmark:after {
+    display: block;
+}
+
+.salvar-perfil{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    background: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    font-weight: 500;
+    padding: .5em 1.5em;
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+
+.salvar-perfil:hover{
+    border: 1px solid red;
+    background: red;
+    color: #fff;
+}
+
+.cancelar-mudancas{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    background: #141414;
+    border: 1px solid #808080;
+    color: #808080;
+    font-weight: 500;
+    padding: .5em 1.5em;
+    cursor: pointer;
+    font-size: 1.2vw;
+}
+
+.cancelar-mudancas:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
